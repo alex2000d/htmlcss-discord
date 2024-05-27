@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    background-color: lightgrey;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0% auto;
+}
+
+.row{
+    display: flex;
+    
+    padding: 10px;
+}
+
+.col-25{
+    width: 25%;
+    
+    background-color: rgb(169, 177, 10);
+    border: 1px dashed black;
+}
+
+.col-50{
+    width: 50%;
+    
+    background-color: rgb(169, 177, 10);
+    border: 1px dashed black;
+}
+
+.contenuto{
+    text-align: center;
+    
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.contenuto-login{
+    text-align: right;
+}
+/* main */
+.bg-blu{
+    background-color: blue;
+}
+
+.container-main-1{
+    max-width: 800px;
+    margin: 0% auto;
+    padding: 15px;
+    
+}
+
+.col-100 {
+    width: 100%;
+    background-color: rgb(255, 63, 95);
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.col-60{
+    width: 60%;
+    background-color: rgb(21, 181, 221);
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.col-40{
+    width: 40%;
+    background-color: rgb(247, 54, 205);
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.bg-gray{
+    background-color: lightgrey;
+}
+
+.col-100-1{
+    width: 100%;
+    background-color: rgb(9, 153, 9);
+    height: 500px;
+    border: 1px dashed black;
+}
+
+
+.bg-dark-gray{
+    background-color: rgb(19, 19, 19);
+}
+
+.container-main-2{
+    max-width: 800px;
+    margin: 0% auto;
+    padding: 15px;  
+}
+/* footer */
+
+footer{
+    background-color: rgb(19, 19, 19);
+}
+
+.top-footer{
+   padding: 5px 0 40px 0;
+   border-bottom: 1px solid gray;
+}
+
+.bottom-footer{
+    padding-top: 25px;
+}
+
+.col-16{
+    width: calc(100% / 6);
+    border: 1px dashed white;
+    background-color: aqua;
+    height: 400px;
+}
+
+.col-33{
+    width: calc(100% / 6 * 2);
+    border: 1px dashed black;
+    background-color: salmon;
+    height: 400px;
+
+}
+
+.container-footer{
+    max-width: 800px;
+    margin: 0% auto;
+    padding: 15px; 
+}
+
+
+.bg-lightaqua{
+    background-color:aquamarine;
+    padding: 20px 0;
+}
+    
+.box-bottom-footer{
+    background-color: rgb(251, 133, 153);
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+
