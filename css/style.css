@@ -200,7 +200,7 @@ img{
 /* footer */
 
 footer{
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(44, 43, 43);
 }
 
 .top-footer{
@@ -214,15 +214,11 @@ footer{
 
 .col-16{
     width: calc(100% / 6);
-    border: 1px dashed white;
-    background-color: aqua;
     height: 400px;
 }
 
 .col-33{
     width: calc(100% / 6 * 2);
-    border: 1px dashed black;
-    background-color: salmon;
     height: 400px;
     background-image: url(../img/ita.png);
     background-size: 30px;
@@ -251,13 +247,11 @@ footer{
 
 
 .bg-lightaqua{
-    background-color:aquamarine;
+    
     padding: 20px 0;
 }
     
 .box-bottom-footer{
-    background-color: rgb(251, 133, 153);
-    border: 1px dashed black;
     padding: 10px;
 }
 
@@ -269,3 +263,13 @@ footer{
     width: 10%;
 }
 
+.text-color-size{
+    color: rgb(35, 35, 253);
+    padding-top: 20px;
+    margin: 10px;
+}
+
+.testo{
+    margin: 10px; 
+    color: white;
+}
