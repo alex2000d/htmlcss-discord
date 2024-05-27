@@ -101,7 +101,15 @@ ul li{
     background-color: rgb(33, 33, 33);
 }
 
+.text-font-size{
+    font-size: 30px;
+    margin-top: 20px;
 
+}
+
+.my-20{
+    margin-top: 20px;
+}
 
 .my-40{
     margin: 40px;
@@ -111,20 +119,34 @@ ul li{
     font-size: 20px;
 }
 
-.col-60{
+.col-60 {
     width: 60%;
+}
+
+.col-item1{
     background-image: url(../img/item1.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+}
+
+.col-item3{
+    background-image: url(../img/item3.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.col-item2{
+    background-image: url(../img/item2.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .col-40{
     width: 40%;
-    background-color: rgb(247, 54, 205);
     height: 300px;
-    border: 1px dashed black;
 }
 
 .bg-gray{
@@ -133,11 +155,38 @@ ul li{
 
 .col-100-1{
     width: 100%;
-    background-color: rgb(9, 153, 9);
-    height: 500px;
-    border: 1px dashed black;
+    
+    height: 650px;
 }
 
+img{
+    width: 100%;
+}
+
+.btn-blu{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(98, 92, 162);
+    margin-left: 300px;
+    
+}
+
+
+
+
+.text-size{
+    font-size: 30px;
+    text-align: center;
+}
+
+.text-center{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
 
 .bg-dark-gray{
     background-color: rgb(19, 19, 19);
@@ -175,7 +224,23 @@ footer{
     border: 1px dashed black;
     background-color: salmon;
     height: 400px;
+    background-image: url(../img/ita.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    background-position: top 30% left;
+    
 
+}
+
+.my-10{
+    margin-left: 35px;
+}
+
+.text-color{
+    color: rgb(35, 35, 253);
+    font-size: 35px;
+    margin-bottom: 13px;
 }
 
 .container-footer{
@@ -200,4 +265,7 @@ footer{
     justify-content: space-between;
 }
 
+.img-ita{
+    width: 10%;
+}
 
