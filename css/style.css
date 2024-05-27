@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: arial, sans-serif;
+}
+
 /* header */
 header{
-    background-color: lightgrey;
+    background-color:#255EE9
 }
 
 .container{
@@ -22,16 +26,18 @@ header{
 
 .col-25{
     width: 25%;
-    
-    background-color: rgb(169, 177, 10);
-    border: 1px dashed black;
 }
 
+
+
+
+
 .col-50{
-    width: 50%;
-    
-    background-color: rgb(169, 177, 10);
-    border: 1px dashed black;
+    width: 50%; 
+}
+
+.mt-5{
+    margin-top: 5px;
 }
 
 .contenuto{
@@ -46,14 +52,32 @@ ul{
 
 ul li{
     display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0px 6px;
 }
 
 .contenuto-login{
     text-align: right;
 }
+
+.btn{
+    padding: 10px 20px;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn-white{
+    background-color: white;
+}
+
 /* main */
-.bg-blu{
-    background-color: blue;
+.bg-jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container-main-1{
@@ -65,16 +89,35 @@ ul li{
 
 .col-100 {
     width: 100%;
-    background-color: rgb(255, 63, 95);
     height: 300px;
-    border: 1px dashed black;
+    text-align: center;
+}
+
+.btn-black{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: rgb(33, 33, 33);
+}
+
+
+
+.my-40{
+    margin: 40px;
+}
+.text-white{
+    color: white;
+    font-size: 20px;
 }
 
 .col-60{
     width: 60%;
-    background-color: rgb(21, 181, 221);
-    height: 300px;
-    border: 1px dashed black;
+    background-image: url(../img/item1.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 .col-40{
